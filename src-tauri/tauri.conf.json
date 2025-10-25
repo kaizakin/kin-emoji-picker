@@ -13,7 +13,7 @@
     "windows": [
       {
         "title": "kin-emoji-picker",
-        "width": 350,
+        "width": 351,
         "height": 480,
         "alwaysOnTop": true,
         "decorations": true,
