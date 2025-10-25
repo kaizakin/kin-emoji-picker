@@ -23,12 +23,6 @@ importers:
       '@tauri-apps/plugin-clipboard-manager':
         specifier: ~2.3.0
         version: 2.3.0
-      '@tauri-apps/plugin-opener':
-        specifier: ^2
-        version: 2.5.0
-      '@tauri-apps/plugin-window':
-        specifier: 2.0.0-alpha.1
-        version: 2.0.0-alpha.1
       emoji-mart:
         specifier: ^5.6.0
         version: 5.6.0
@@ -539,10 +533,6 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7
 
-  '@tauri-apps/api@2.0.0-alpha.6':
-    resolution: {integrity: sha512-ZMOc3eu9amwvkC6M69h3hWt4/EsFaAXmtkiw4xd2LN59/lTb4ZQiVfq2QKlRcu1rj3n/Tcr7U30ZopvHwXBGIg==}
-    engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
-
   '@tauri-apps/api@2.9.0':
     resolution: {integrity: sha512-qD5tMjh7utwBk9/5PrTA/aGr3i5QaJ/Mlt7p8NilQ45WgbifUNPyKWsA63iQ8YfQq6R8ajMapU+/Q8nMcPRLNw==}
 
@@ -619,12 +609,6 @@ packages:
 
   '@tauri-apps/plugin-clipboard-manager@2.3.0':
     resolution: {integrity: sha512-81NOBA2P+OTY8RLkBwyl9ZR/0CeggLub4F6zxcxUIfFOAqtky7J61+K/MkH2SC1FMxNBxrX0swDuKvkjkHadlA==}
-
-  '@tauri-apps/plugin-opener@2.5.0':
-    resolution: {integrity: sha512-B0LShOYae4CZjN8leiNDbnfjSrTwoZakqKaWpfoH6nXiJwt6Rgj6RnVIffG3DoJiKsffRhMkjmBV9VeilSb4TA==}
-
-  '@tauri-apps/plugin-window@2.0.0-alpha.1':
-    resolution: {integrity: sha512-dFOAgal/3Txz3SQ+LNQq0AK1EPC+acdaFlwPVB/6KXUZYmaFleIlzgxDVoJCQ+/xOhxvYrdQaFLefh0I/Kldbg==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1300,8 +1284,6 @@ snapshots:
       tailwindcss: 4.1.16
       vite: 7.1.12(jiti@2.6.1)(lightningcss@1.30.2)
 
-  '@tauri-apps/api@2.0.0-alpha.6': {}
-
   '@tauri-apps/api@2.9.0': {}
 
   '@tauri-apps/cli-darwin-arm64@2.9.1':
@@ -1354,14 +1336,6 @@ snapshots:
   '@tauri-apps/plugin-clipboard-manager@2.3.0':
     dependencies:
       '@tauri-apps/api': 2.9.0
-
-  '@tauri-apps/plugin-opener@2.5.0':
-    dependencies:
-      '@tauri-apps/api': 2.9.0
-
-  '@tauri-apps/plugin-window@2.0.0-alpha.1':
-    dependencies:
-      '@tauri-apps/api': 2.0.0-alpha.6
 
   '@types/babel__core@7.20.5':
     dependencies:
