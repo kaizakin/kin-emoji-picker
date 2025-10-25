@@ -13,11 +13,12 @@
     "windows": [
       {
         "title": "kin-emoji-picker",
-        "width": 351,
-        "height": 480,
+        "width": 350,
+        "height": 435,
         "alwaysOnTop": true,
-        "decorations": true,
-        "transparent": true
+        "transparent": true,
+        "resizable": false,
+        "decorations": true
       }
     ],
     "security": {
